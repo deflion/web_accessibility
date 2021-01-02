@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" href="/style.css"> -->
+	<title>Landing page</title>
+	<style>
+
+		main{
+			font-size: 24px;
+		}
+
+		header{
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		.logo img{
+			width: 300px;
+		}
+
+		nav{
+			height: 50px;
+			width: 80%;
+		}
+
+		.nav-bar{
+			margin: 0 auto;
+			float: right;
+		}
+
+		.list-item{
+			display: inline-block;
+			float:left;
+			margin-right: 15px;
+		}
+
+		.list-item a{
+			font-size: 2em;
+			text-decoration: none;
+		}
+
+		.container{
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		.row{
+			display: inline-block;
+			width: 100%;
+			margin: 10px 0;
+		}
+		
+		.col{
+			float: left;
+		}
+
+		.col-12{
+			display: block;
+			width: 100%;
+		}
+
+		.col-6{
+			display: block;
+			width: 50%;
+		}
+
+		.col-4{
+			display: block;
+			width: 33.33333%
+		}
+
+		h1{
+
+		}
+
+		h2{
+			font-size: 48px;
+		}
+
+		footer{
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>
+			<figure class="logo">
+				<img src="https://lms.skillfactory.ru/static/base-theme-ironwood/images/logo.png" alt="SkillFactory">
+			</figure>
+		</h1>
+	</header>
+	<nav>
+		<ul class="nav-bar">
+			<li class="list-item"><a href="#about">О нас</a></li>
+			<li class="list-item"><a href="#contacts">Контакты</a></li>
+			<li class="list-item"><a href="#team">Команда</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="container">
+			
+			<section class="row" id="about">
+				<div class="col col-12">
+					<div class="row">
+						<div class="col col-6">
+							<h2>О нас</h2>
+						</div>
+						<div class="col col-6">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quaerat eos quia perspiciatis repellendus nostrum explicabo error illum, ut. Quae sequi eius, vel reiciendis possimus quam facere quidem tenetur architecto!</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="row" id="contacts">
+				<div class="col col-12">
+					<div class="row">
+						<div class="col col-6">
+							<h2>Контакты</h2>
+							<div class="row">
+								<p><a href="tel:+74952910912" alt="Номер телефона:+7 (495) 291-09-12">+7 (495) 291-09-12</a></p>
+								<p><a href="maito:"></a></p>
+								<adress>127051, г. Москва, Цветной бульвар д.30, стр.1, эт.3, пом.1 — комната 14, оф. 231</adress>
+							</div>
+							<div class="row">
+								<form action="">
+									<label for="fname">Имя: </label>
+									<input type="text" name="name"><br>
+									<label for="email">Ваша почта</label>
+									<input type="email" name="email"><br>
+									<input type="submit" value="Submit">
+								</form>								
+							</div>
+						</div>
+						<div class="col col-6">
+							<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3b3e7c94c205ada4d8b3c89e557f7cf2b8f35f7ccb4093f2aaa8decef5155fe3&amp;source=constructor" width="793" height="400" frameborder="0"></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="row" id="team">
+				<div class="col col-12">
+					<h2>Команда</h2>
+					<div class="row">
+						<div class="col col-4">
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae commodi iure voluptate quis eius tempora consectetur a molestias non omnis qui atque pariatur eos repudiandae, labore officia necessitatibus, ratione exercitationem!</p>
+						</div>
+						<div class="col col-4">
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae commodi iure voluptate quis eius tempora consectetur a molestias non omnis qui atque pariatur eos repudiandae, labore officia necessitatibus, ratione exercitationem!</p>
+						</div>
+						<div class="col col-4">
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae commodi iure voluptate quis eius tempora consectetur a molestias non omnis qui atque pariatur eos repudiandae, labore officia necessitatibus, ratione exercitationem!</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<div class="row">
+			<span>2021&copy;&nbsp;deflion</span>
+		</div>
+	</footer>
+</body>
+</html>
